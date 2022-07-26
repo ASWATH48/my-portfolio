@@ -1,0 +1,86 @@
+*{
+    font-family: "DM Sans", sans-serif ;
+}
+
+/* utilities */
+.font_size{
+    font-size: 20px;
+}
+
+.mt_7{
+    margin-top: 4rem;
+ }
+/* ---utilities end--- */
+
+/* index container*/
+
+  .images img {
+    height: 53vh;
+    width: 72%;
+    position: absolute;
+    transition: bottom 5s;
+    transition: left 5s;
+  }
+
+   .fa-media:hover{
+    padding:10px;
+    border-radius: 100%;
+
+   }
+  .fa-media:hover{
+    background-color: azure;
+  }
+
+  div h1 div {
+    position: absolute;
+    bottom: 72%;
+    /* right: 0; */
+    left: 43%;
+    width: 14%;
+    height: 0.3vh;
+    background-color: #fff;
+  }
+  
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+  }
+  
+  .container_box:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+  }
+/* ---container end--- */
+
+@media only screen and (max-width: 1000px) {
+    body {
+    }
+    .images{
+        display: none;
+    }
+
+    div h1 div{
+        bottom: 90%;
+        width: 20%;
+        left: 59%;
+        /* display: none; */
+    }
+  }
+  
+
